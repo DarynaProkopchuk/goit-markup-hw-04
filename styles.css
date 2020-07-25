@@ -151,10 +151,25 @@ h4 {
 .address-nav-list-link:hover {
   color: var(--accent-color);
 }
+.address-nav-list-link:focus {
+  color: var(--accent-color);
+}
 .address-nav-list-link {
   display: flex;
 }
-.address-nav-list-link:hover.address-nav-mailto {
+.address-nav-list-item {
+  display: flex;
+}
+.address-nav-list-link:hover.address-nav-mailto-svg {
+  fill: var(--accent-color);
+}
+.address-nav-list-link:focus.address-nav-mailto-svg {
+  fill: var(--accent-color);
+}
+.address-nav-list-link:hover.address-nav-telefon-svg {
+  fill: var(--accent-color);
+}
+.address-nav-list-link:focus.address-nav-mailto-svg {
   fill: var(--accent-color);
 }
 .address-nav-list-link {
