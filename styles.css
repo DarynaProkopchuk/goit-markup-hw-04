@@ -529,10 +529,9 @@ h3.whatwedo-list-link {
 .client-item:not(:last-child) {
   margin-right: 30px;
 }
-/*
-.client-item {
+.client-item-svg {
   justify-content: space-around;
-}*/
+}
 
 /*PORTFOLIO*/
 
@@ -734,9 +733,24 @@ h3.whatwedo-list-link {
 .logo-adress {
   width: 215px;
 }
-.footer-join::before {
-  content: 'Подписатися';
+.footer-subskribe {
+  display: flex;
+  align-items: center;
+}
+.footer-subskribe-button {
+  width: 200px;
+  height: 50px;
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+.footer-subskribe-button::after {
+  content: 'Подписаться';
   color: var(--primary-white-color);
   background-image: url(./imeges/icon-send.png);
   background-position: 28px, center;
+  background-repeat: no-repeat;
+  background-position: right;
+  margin-right: 25px;
+  margin-left: 10px;
 }
