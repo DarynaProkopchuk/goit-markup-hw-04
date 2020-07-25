@@ -418,12 +418,16 @@ h3.whatwedo-list-link {
 }
 .team-list-item:not(:last-child) {
   margin-right: 30px;
+  padding-right: 10px;
 }
-.team-list-social :hover,
-.team-list-social :focus {
+.team-list-social-item {
+  padding-right: 10px;
+}
+
+.team-list-social-item:hover,
+.team-list-social-item:focus {
   color: var(--accent-color);
   fill: var(--accent-color);
-  color: var(--primary-white-color);
 }
 .social {
   display: flex;
@@ -458,7 +462,6 @@ h3.whatwedo-list-link {
 /*Uor Clients*/
 .section-client-list {
   display: flex;
-
   margin-bottom: 94px;
   justify-content: center;
   align-items: center;
@@ -471,6 +474,11 @@ h3.whatwedo-list-link {
 }
 .section-client-list-link:hover,
 .section-client-list-link:focus {
+  color: var(--accent-color);
+  fill: var(--accent-color);
+}
+.client-item:hover,
+.client-item:focus {
   color: var(--accent-color);
   fill: var(--accent-color);
 }
@@ -491,9 +499,10 @@ h3.whatwedo-list-link {
 .client-item:not(:last-child) {
   margin-right: 30px;
 }
+/*
 .client-item {
   justify-content: space-around;
-}
+}*/
 
 /*PORTFOLIO*/
 
