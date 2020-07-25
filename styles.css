@@ -173,6 +173,12 @@ h4 {
 .address-nav-list-link:focus.address-nav-mailto-svg {
   fill: var(--accent-color);
 }
+.address-nav-telefon-svg {
+  padding-right: 10px;
+}
+.address-nav-mailto-svg {
+  padding-right: 10px;
+}
 .address-nav-list-link {
   font-style: 400;
   font-weight: 500;
@@ -245,7 +251,7 @@ h4 {
   font-style: 400;
   font-weight: 700;
   font-size: 36px;
-  line-height: 42px;
+  line-height: 1.16px;
   text-align: center;
   letter-spacing: 0.03em;
 
