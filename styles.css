@@ -273,6 +273,17 @@ h4 {
   width: 270px;
   justify-content: center;
 }
+.aboutus-list-item-fon {
+  background: #f5f4fa;
+  border-radius: 4px;
+  width: 270px;
+  height: 120px;
+  margin: 0;
+  padding: 0;
+}
+.aboutus-list-item.svg {
+  align-items: center;
+}
 .aboutus-title {
   font-style: 400;
   font-weight: 700;
@@ -344,15 +355,12 @@ h3.whatwedo-list-link {
   margin-right: 30px;
 }
 .whatwedo-list-title {
-  background-color: var(--text-color);
   font-style: 400;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   text-align: center;
-
   text-transform: uppercase;
-
   color: var(--primary-white-color);
 }
 /*OURE TEAME*/
@@ -360,8 +368,6 @@ h3.whatwedo-list-link {
 .team-list {
   display: flex;
   margin-left: 0;
-
-  padding-bottom: 94px;
 }
 .team-list {
   list-style: none;
@@ -390,6 +396,10 @@ h3.whatwedo-list-link {
 }
 .team-list-item {
   width: 270px;
+  background: #ffffff;
+  box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 1px 3px rgba(0, 0, 0, 0.12);
+  border-radius: 0px 0px 4px 4px;
 }
 .team-list-desc {
   font-style: 400;
@@ -397,7 +407,6 @@ h3.whatwedo-list-link {
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
-
   color: var(--text-color);
 }
 .team-list-social {
@@ -418,18 +427,22 @@ h3.whatwedo-list-link {
 }
 .team-list-item:not(:last-child) {
   margin-right: 30px;
-  padding-right: 10px;
 }
 .team-list-social-item {
   padding-right: 10px;
 }
-
-.team-list-social-item:hover,
-.team-list-social-item:focus {
+.team-list-social {
+  margin-bottom: 24px;
+  margin-top: 16px;
+  margin-left: 32px;
+  margin-right: 32px;
+}
+.team-list-social-item:hover {
   color: var(--accent-color);
   fill: var(--accent-color);
 }
-.social {
+
+.social-link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -437,23 +450,23 @@ h3.whatwedo-list-link {
   height: 44px;
   border-radius: 50%;
 }
-.social-link-svg {
-  width: 20px;
-  height: 20px;
-}
+
 .social-link:hover,
 .social-link:focus,
 .social-link:hover.social-link-svg,
 .social-link:focus.social-link-svg {
   fill: var(--primary-white-color);
 }
-.social-list-circle {
+.social-link {
   fill: var(--primary-white-color);
 }
-.social-list-circle:hover {
+.social-link:hover {
   background-color: var(--accent-color);
 }
-.social-list-circle:hover.social-list-circle-svg {
+.social-link:hover.social-link-svg {
+  fill: var(--primary-white-color);
+}
+.social-link:focus.social-link-svg {
   fill: var(--primary-white-color);
 }
 .social-link-svg {
@@ -472,6 +485,9 @@ h3.whatwedo-list-link {
 .section-client-list {
   list-style: none;
 }
+.section-client {
+  padding-top: 0;
+}
 .section-client-list-link:hover,
 .section-client-list-link:focus {
   color: var(--accent-color);
@@ -481,6 +497,20 @@ h3.whatwedo-list-link {
 .client-item:focus {
   color: var(--accent-color);
   fill: var(--accent-color);
+}
+.client-item {
+  border: 1px solid #afb1b8;
+  width: 170px;
+  height: 90px;
+}
+.client-item:hover {
+  border: 1px solid var(--accent-color);
+}
+.client-item:hover.client-item-svg {
+  fill: var(--accent-color);
+}
+.client-item-svg {
+  align-items: center;
 }
 .section-clients-list.link {
   display: flex;
