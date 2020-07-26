@@ -279,6 +279,7 @@ svg {
   margin-right: 30px;
 }
 .aboutus-list-item {
+  align-items: center;
   width: 270px;
   justify-content: center;
 }
@@ -461,6 +462,9 @@ h3.whatwedo-list-link {
   height: 44px;
   border-radius: 50%;
 }
+.social-link-svg {
+  fill: #afb1b8;
+}
 
 .social-link:hover,
 .social-link:focus,
@@ -507,6 +511,11 @@ h3.whatwedo-list-link {
 .section-client-list-link:hover .client-item-svg {
   fill: #ffffff;
 }
+.client-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .client-item:hover,
 .client-item:focus {
   color: var(--accent-color);
@@ -517,7 +526,9 @@ h3.whatwedo-list-link {
   width: 170px;
   height: 90px;
 }
-
+.client-item-svg {
+  fill: #afb1b8;
+}
 .client-item:hover {
   border: 1px solid var(--accent-color);
 }
