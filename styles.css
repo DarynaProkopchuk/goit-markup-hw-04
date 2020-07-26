@@ -689,11 +689,18 @@ h3.whatwedo-list-link {
 }
 .footer-social-links {
   display: flex;
+  width: 206px;
+  height: 44px;
 }
 .social-link-item:not(:last-child) {
   margin-right: 10px;
 }
 
+.social-link-item {
+  width: 44px;
+  height: 44px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
 .logo-footer {
   font-family: var(--secondary-font);
   font-weight: 700;
