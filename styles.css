@@ -57,7 +57,9 @@ h4 {
   font-weight: 700;
   color: var(--title-main-color);
 }
-
+svg {
+  margin: 0;
+}
 /*Header*/
 .header.container {
   display: flex;
@@ -195,7 +197,15 @@ h4 {
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
 }
-
+.address-nav-svg {
+  margin-right: 10px;
+}
+.address-nav-svg:hover {
+  fill: var(--accent-color);
+}
+.address-nav-svg:focus {
+  fill: var(--accent-color);
+}
 /*Hero*/
 .hero {
   padding-top: 200px;
@@ -269,7 +279,6 @@ h4 {
   margin-right: 30px;
 }
 .aboutus-list-item {
-  padding-top: 25px;
   width: 270px;
   justify-content: center;
 }
@@ -283,7 +292,9 @@ h4 {
 }
 .aboutus-list-item.svg {
   align-items: center;
+  margin: auto;
 }
+
 .aboutus-title {
   font-style: 400;
   font-weight: 700;
@@ -493,6 +504,9 @@ h3.whatwedo-list-link {
   color: var(--accent-color);
   fill: var(--accent-color);
 }
+.section-client-list-link:hover .client-item-svg {
+  fill: #ffffff;
+}
 .client-item:hover,
 .client-item:focus {
   color: var(--accent-color);
@@ -503,10 +517,11 @@ h3.whatwedo-list-link {
   width: 170px;
   height: 90px;
 }
+
 .client-item:hover {
   border: 1px solid var(--accent-color);
 }
-.client-item:hover.client-item-svg {
+.client-item:hover .client-item-svg {
   fill: var(--accent-color);
 }
 .client-item-svg {
