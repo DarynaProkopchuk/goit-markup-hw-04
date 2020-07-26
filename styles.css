@@ -453,8 +453,8 @@ h3.whatwedo-list-link {
 
 .social-link:hover,
 .social-link:focus,
-.social-link:hover.social-link-svg,
-.social-link:focus.social-link-svg {
+.social-link:hover .social-link-svg,
+.social-link:focus .social-link-svg {
   fill: var(--primary-white-color);
 }
 .social-link {
@@ -463,10 +463,10 @@ h3.whatwedo-list-link {
 .social-link:hover {
   background-color: var(--accent-color);
 }
-.social-link:hover.social-link-svg {
+.social-link:hover .social-link-svg {
   fill: var(--primary-white-color);
 }
-.social-link:focus.social-link-svg {
+.social-link:focus .social-link-svg {
   fill: var(--primary-white-color);
 }
 .social-link-svg {
