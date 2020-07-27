@@ -58,6 +58,7 @@ h4 {
   color: var(--title-main-color);
 }
 svg {
+  display: block;
   margin: 0;
   padding: 0;
 }
