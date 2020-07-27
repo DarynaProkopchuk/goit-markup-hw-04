@@ -289,12 +289,18 @@ svg {
   margin: 0;
   padding: 0;
 }
-.aboutus-list-item.svg {
+.aboutus-list-svg {
   align-items: center;
   margin-left: auto;
   margin-right: auto;
+  /*a mozhet tak?*/
 }
-
+.aboutus-list-item-fon.svg {
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  /*ili tak?*/
+}
 .aboutus-title {
   font-style: 400;
   font-weight: 700;
