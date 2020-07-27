@@ -299,8 +299,9 @@ svg {
   margin: 0;
   padding: 0;
 }
-.aboutus-list-svg {
-  display: block;
+
+.aboutus-list-item-fon {
+  display: flex;
   align-items: center;
   justify-content: center;
   /*margin-left: auto;
