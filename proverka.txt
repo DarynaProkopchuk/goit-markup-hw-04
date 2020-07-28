@@ -1,0 +1,52 @@
+ <!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="ViePort" content="Width=device-width,initial-scale=1.0" />
+    <title>WebStudio</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&family=Roboto:ital,wght@0,400;0,500;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="normalis.css" />
+    <link rel=" stylesheet " href="styles.css" />
+  </head>
+  <body class="body">
+    
+      <header class="header"> 
+        <div class="container">
+          <nav class="navigation">
+<a class="logo link" href="./index.html">
+  <span class="logo-accent">Web</span> Studio
+</a>
+<ul class="site-nav-list">
+  <li class="site-nav-list-item list"><a class="site-nav-list-link link" href="./index.html">Студия</a></li>
+  <li class="site-nav-list-item list">
+    <a class="site-nav-list-link link" href="./portfolio.html">Портфолио</a>
+  </li>
+  <li class="site-nav-list-item list" ><a class="site-nav-list-link link" href="">Контакты</a></li>
+</ul>
+ <address class="header-adress">
+          <ul class="header-adress-list list flex-container">
+            <li class="header-adress-item list">
+              <a
+                class="header-adress-mail link"
+                href="mailto:info@devstudio.com"
+                ><svg class="header-adress-mail-svg" width="16" height="12">
+                  <use href="./images/symbol-defs.svg#icon-envelope"></use>
+                </svg>
+                info@devstudio.com
+              </a>
+            </li>
+            <li class="header-adress-item list">
+              <a class="header-adress-tel link" href="tel:+38096111111"
+                ><svg class="header-adress-mail-svg" width="10" height="15">
+                  <use href="./images/symbol-defs.svg#icon-smartphone-1"></use>
+                </svg>
+                +38 096 111 11 11</a
+              >
+            </li>
+          </ul>
+        </address>
+      </div>
+         </header>

@@ -57,12 +57,7 @@ h4 {
   font-weight: 700;
   color: var(--title-main-color);
 }
-svg {
-  display: block;
-  /* margin: 0;
-  padding: 0;
-  /*esli chto udalit*/
-}
+
 /*Header*/
 .header.container {
   display: flex;
@@ -167,8 +162,15 @@ svg {
 }
 .address-nav-telefon-svg {
   fill: #757575;
+  display: inline-block;
   width: 10px;
   height: 15px;
+}
+.address-nav-mailto-svg {
+  fill: #757575;
+  display: inline-block;
+  width: 16px;
+  height: 11px;
 }
 .address-nav-list-link:hover .address-nav-mailto-svg {
   fill: var(--accent-color);
@@ -183,10 +185,10 @@ svg {
   fill: var(--accent-color);
 }
 .address-nav-telefon-svg {
-  padding-right: 10px;
+  margin-right: 10px;
 }
 .address-nav-mailto-svg {
-  padding-right: 10px;
+  margin-right: 10px;
 }
 .address-nav-list-link {
   font-style: 400;
@@ -204,16 +206,7 @@ svg {
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
 }
-/* lishnee?
-.address-nav-svg {
-  margin-right: 10px;
-}
-.address-nav-svg:hover {
-  fill: var(--accent-color);
-}
-.address-nav-svg:focus {
-  fill: var(--accent-color);
-}*/
+
 /*Hero*/
 .hero {
   padding-top: 200px;
@@ -308,6 +301,7 @@ svg {
   margin-right: auto;
   /*a mozhet tak?*/
 }
+
 .aboutus-list-item-fon .svg {
   align-items: center;
   margin-left: auto;
